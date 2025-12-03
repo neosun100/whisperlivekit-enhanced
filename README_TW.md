@@ -1,4 +1,4 @@
-<h1 align="center">WhisperLiveKit 增強版</h1>
+<h1 align="center">whisperlivekit-enhanced 增強版</h1>
 
 <p align="center">
   <b>超低延遲、自託管語音轉文字，智慧 GPU 資源管理</b>
@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://pypi.org/project/whisperlivekit/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/whisperlivekit?color=g"></a>
   <a href="https://pepy.tech/project/whisperlivekit"><img alt="Downloads" src="https://static.pepy.tech/personalized-badge/whisperlivekit?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=installations"></a>
-  <a href="https://github.com/QuentinFuxa/WhisperLiveKit/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-dark_green"></a>
+  <a href="https://github.com/QuentinFuxa/whisperlivekit-enhanced/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-dark_green"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.9--3.15-dark_green">
 </p>
 
@@ -43,8 +43,8 @@ cp .env.example .env
 ### Docker（推薦）
 
 ```bash
-git clone https://github.com/yourusername/WhisperLiveKit.git
-cd WhisperLiveKit
+git clone https://github.com/neosun100/whisperlivekit-enhanced.git
+cd whisperlivekit-enhanced
 cp .env.example .env
 ./start.sh
 ```
@@ -119,7 +119,7 @@ Apache License 2.0 - 詳見 [LICENSE](LICENSE) 檔案。
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/WhisperLiveKit&type=Date)](https://star-history.com/#yourusername/WhisperLiveKit)
+[![Star History Chart](https://api.star-history.com/svg?repos=neosun100/whisperlivekit-enhanced&type=Date)](https://star-history.com/#neosun100/whisperlivekit-enhanced)
 
 ## 📱 關注公眾號
 

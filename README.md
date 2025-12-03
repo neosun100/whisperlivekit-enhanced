@@ -1,4 +1,4 @@
-<h1 align="center">WhisperLiveKit Enhanced</h1>
+<h1 align="center">whisperlivekit-enhanced Enhanced</h1>
 
 <p align="center">
   <b>Ultra-low-latency, self-hosted speech-to-text with intelligent GPU management</b>
@@ -11,7 +11,7 @@
 <p align="center">
   <a href="https://pypi.org/project/whisperlivekit/"><img alt="PyPI Version" src="https://img.shields.io/pypi/v/whisperlivekit?color=g"></a>
   <a href="https://pepy.tech/project/whisperlivekit"><img alt="Downloads" src="https://static.pepy.tech/personalized-badge/whisperlivekit?period=total&units=international_system&left_color=grey&right_color=brightgreen&left_text=installations"></a>
-  <a href="https://github.com/QuentinFuxa/WhisperLiveKit/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-dark_green"></a>
+  <a href="https://github.com/QuentinFuxa/whisperlivekit-enhanced/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/badge/License-Apache%202.0-dark_green"></a>
   <img alt="Python" src="https://img.shields.io/badge/python-3.9--3.15-dark_green">
 </p>
 
@@ -57,8 +57,8 @@ cp .env.example .env
 
 **Quick Start:**
 ```bash
-git clone https://github.com/yourusername/WhisperLiveKit.git
-cd WhisperLiveKit
+git clone https://github.com/neosun100/whisperlivekit-enhanced.git
+cd whisperlivekit-enhanced
 cp .env.example .env
 ./start.sh
 ```
@@ -204,7 +204,7 @@ Access Swagger UI at: http://localhost:8000/docs
 ## 🏗️ Project Structure
 
 ```
-WhisperLiveKit/
+whisperlivekit-enhanced/
 ├── docker-compose.yml          # Docker configuration
 ├── Dockerfile.enhanced         # Enhanced Dockerfile
 ├── start.sh                    # One-click startup
@@ -269,7 +269,7 @@ This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENS
 
 ## 🙏 Acknowledgments
 
-Based on the excellent [WhisperLiveKit](https://github.com/QuentinFuxa/WhisperLiveKit) project.
+Based on the excellent [whisperlivekit-enhanced](https://github.com/QuentinFuxa/whisperlivekit-enhanced) project.
 
 Powered by:
 - [Whisper](https://github.com/openai/whisper) - OpenAI's speech recognition
@@ -279,7 +279,7 @@ Powered by:
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/WhisperLiveKit&type=Date)](https://star-history.com/#yourusername/WhisperLiveKit)
+[![Star History Chart](https://api.star-history.com/svg?repos=neosun100/whisperlivekit-enhanced&type=Date)](https://star-history.com/#neosun100/whisperlivekit-enhanced)
 
 ## 📱 Follow Us
 
