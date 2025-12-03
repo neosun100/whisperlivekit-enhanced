@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  whisperlivekit:
+    build:
+      context: .
+      dockerfile: Dockerfile.enhanced
+    container_name: whisperlivekit
+    restart: unless-stopped
+    ports:
+      - "0.0.0.0:${WLK_PORT:-8000}:8000"
+    environment:
+      - CUDA_VISIBLE_DEVICES=${CUDA_VISIBLE_DEVICES:-auto}
+      - WLK_MODEL=${WLK_MODEL:-medium}
+      - WLK_LANGUAGE=${WLK_LANGUAGE:-auto}
+      - WLK_IDLE_TIMEOUT=${WLK_IDLE_TIMEOUT:-10}
+      - WLK_DIARIZATION=${WLK_DIARIZATION:-false}
+      - WLK_TARGET_LANGUAGE=${WLK_TARGET_LANGUAGE:-}
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - hf_cache:/root/.cache/huggingface
+      - ./logs:/app/logs
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+
+volumes:
+  hf_cache:
+    driver: local
